@@ -13,4 +13,3 @@ while True:
         clc.somma()
     else: 
         print("Scelta non corretta!!")
-
