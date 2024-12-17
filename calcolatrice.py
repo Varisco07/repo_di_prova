@@ -1,3 +1,9 @@
+def somma():
+    n_1 = int(input("Inserisci il primo numero: "))
+    n_2 = int(input("Inserisci il secondo numero: "))
+    print(f"{n_1} + {n_2} = {n_1 + n_2}")
+
+
 while True:
     print("Benveuto nella nostra calcolatrice")
     print("Inserisci l'operazione che vuoi effettuare")
@@ -9,8 +15,7 @@ while True:
         n_2 = int(input("Inserisci il secondo numero: "))
         print(f"{n_1} - {n_2} = {n_1 - n_2}")
     elif scelta == 2:
-        n_1 = int(input("Inserisci il primo numero: "))
-        n_2 = int(input("Inserisci il secondo numero: "))
-        print(f"{n_1} + {n_2} = {n_1 + n_2}")
+        somma()
     else: 
         print("Scelta non corretta!!")
+
